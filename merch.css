@@ -5,11 +5,10 @@
 }
 
 .div_3 {
-    width: 60%;
+    width: 75%;
     min-height: 70vh;
-    background-color: white;
+    background-color: #fff;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .div_3 p {
@@ -82,8 +81,8 @@
 }
 
 .div_2{
-    width: 100%;
-    min-height: 84.6vh;
+    width: 25%;
+    min-height: 70vh;
     background-color: coral;
 }
 
@@ -94,28 +93,24 @@
 }
 
 .div_5 {
-    width: 100%;
+    position: relative;
     min-height: 10vh;
+    width: 100%;
     background-color: rgb(55, 196, 45);
+    margin: 0;
 }
+
 .div_6 {
     width: 100%;
     min-height: 10vh;
     background-color: cornflowerblue;
 }
 
-.div_center{
+.div_center {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-}
-
-.div_left_column{
-    width: 20%;
-
-}
-
-.div_center_column{
-    width: 60%;
+    min-height: 80vh;
 }
 
 body {
@@ -126,4 +121,18 @@ body {
 
 h1, h2 {
     margin: 0;
+}
+
+.div_q{
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_w{
+    position: relative;
+    display:flex;
+    width: 100%;
+    flex: 1;
 }
